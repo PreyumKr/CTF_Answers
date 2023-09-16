@@ -1,0 +1,19 @@
+In the var/log directory 
+just by running cat * | grep UUID
+it gave the log having UUID of the user
+
+preyumkr@Ubuntu:/mnt/linux/var/log$ cat * | grep UUID
+
+cat: chrony: Is a directory
+
+[    0.000000] Command line: BOOT_IMAGE=vmlinuz-virt root=UUID=0d67f47e-a234-41b4-918a-f7e1e66d20db modules=sd-mod,usb-storage,ext4 quiet rootfstype=ext4 initrd=initramfs-virt
+
+[    0.014191] Kernel command line: BOOT_IMAGE=vmlinuz-virt root=UUID=0d67f47e-a234-41b4-918a-f7e1e66d20db modules=sd-mod,usb-storage,ext4 quiet rootfstype=ext4 initrd=initramfs-virt
+
+[   321.097] Kernel command line: BOOT_IMAGE=vmlinuz-virt root=UUID=0d67f47e-a234-41b4-918a-f7e1e66d20db modules=sd-mod,usb-storage,ext4 quiet rootfstype=ext4 initrd=initramfs-virt
+
+[  1001.298] Kernel command line: BOOT_IMAGE=vmlinuz-virt root=UUID=0d67f47e-a234-41b4-918a-f7e1e66d20db modules=sd-mod,usb-storage,ext4 quiet rootfstype=ext4 initrd=initramfs-virt
+
+The answer then after using the given format was
+
+SICTF{0d67f47e-a234-41b4-918a-f7e1e66d20db}

@@ -1,0 +1,20 @@
+I used steghide for this.
+When I wrote the command and gave password as null by pressing enter it gave me a file named flag.
+
+preyumkr@ASUS-TUF17:/mnt/d/Study Material/IITGN/Workshop$ steghide extract -sf Oppenheimer.jpg
+Enter passphrase:
+the file "flag" does already exist. overwrite ? (y/n) n
+steghide: did not write to file "flag".
+
+The flag file had a hash which I decrypted using a webpage that said it can decrypt any kind of hashes.
+
+U0lDVEZ7MV80TV84M0MwTTNfRDM0N0hfN0gzX0QzNTdyMFkzcl8wRl9XMHIxRDV9
+
+webpage: https://hashes.com/en/decrypt/hash
+
+The page gave a output like this.
+
+U0lDVEZ7MV80TV84M0MwTTNfRDM0N0hfN0gzX0QzNTdyMFkzcl8wRl9XMHIxRDV9:SICTF{1_4M_83C0M3_D347H_7H3_D357r0Y3r_0F_W0r1D5}
+
+Which had the answer directly.
+SICTF{1_4M_83C0M3_D347H_7H3_D357r0Y3r_0F_W0r1D5}

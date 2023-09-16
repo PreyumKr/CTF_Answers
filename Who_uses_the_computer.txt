@@ -1,5 +1,9 @@
-The answer was clear when I extracted the img file and went to the home directory.
+The answer was clear when I extracted the .img file and went to the home directory (i.e where the user directories are made).
 There was only one user emmettbrown
+
+preyumkr@Ubuntu:/mnt/linux/home$ ls
+
+emmettbrown
 
 The answer then after using the given format was
 

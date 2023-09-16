@@ -1,0 +1,13 @@
+It was a program or executable.
+When I executed the program, it asked for a password by saying " Enter the password :"
+
+I opened the executable file in a text editor (i.e VS Code ) and did a find search for the string.
+The answer was written just after the string in the middle of the program's code.
+
+ Enter the password :  MY Super Stronk Password, which is completely unbreakable and you could never guess in a milion years. #guessinggames #systummm #smort #200millionIQ 
+ Wrong Password  
+ Correct Password       
+ SICTF{br0k3n_h34r75_4nd_m3nd3d_5y573m5}
+
+ It literally gave the answer right there.
+ SICTF{br0k3n_h34r75_4nd_m3nd3d_5y573m5}

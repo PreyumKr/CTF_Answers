@@ -1,0 +1,16 @@
+I used exiftool for this one and using exif tool on the file.png
+gave a output where there was a line saying this.
+
+Comment                         : this may be flag: 89488595684968954984
+
+I broke the number in groups of two and tried converting it into ascii equivalent letters.
+It gave me a sentence likle this.
+
+89488595684968954984
+89 48 85 95 68 49 68 95 49 84
+
+Y0U_D1D_1T
+
+The answer then after using the given format was
+
+SICTF{Y0U_D1D_1T}
