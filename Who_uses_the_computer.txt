@@ -1,0 +1,6 @@
+The answer was clear when I extracted the img file and went to the home directory.
+There was only one user emmettbrown
+
+The answer then after using the given format was
+
+SICTF{emmettbrown}
