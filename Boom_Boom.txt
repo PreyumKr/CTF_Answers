@@ -17,4 +17,4 @@ The page gave a output like this.
 U0lDVEZ7MV80TV84M0MwTTNfRDM0N0hfN0gzX0QzNTdyMFkzcl8wRl9XMHIxRDV9:SICTF{1_4M_83C0M3_D347H_7H3_D357r0Y3r_0F_W0r1D5}
 
 Which had the answer directly.
-SICTF{1_4M_83C0M3_D347H_7H3_D357r0Y3r_0F_W0r1D5}
+SICTF{1_4M_83C0M3_D347H_7H3_D357r0Y3r_0F_W0r1D5} // I am become death the destroyer of worlds

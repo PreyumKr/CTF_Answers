@@ -1,0 +1,13 @@
+In this I used notepad++.
+I observed that every zip file was like a enclosure and each zip's data was contained in the start and end of the file.
+The data looked like PK ETX EOT in the start and PK ENO ACK in the end.
+
+Now I looked at the middle (i.e the last zipped file) of the file and found a name flag.txtUT. So, since it was in the middle its enclosing folder was also just one enclosure away from it. 
+
+So, I kept the text begining from PK ETX 7qehc8ehw8.zip and ending with 7qehc8ehw8.zip PK ENO ACK.
+I removed everything else from the file and saved it.
+
+Then when I extraxted the zip file I got the flag.txt file inside the 7qehc8ehw8 folder.
+
+The flag.txt file contained the exact answer without any hashing. i.e.
+SICTF{17_6035_0n_4nd_0n_4nd_0n}  // It goes on and on and on...

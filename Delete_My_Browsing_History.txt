@@ -1,0 +1,16 @@
+Due to not being able to mount the image properly I was unable to get the correct data in the places.sqlite file inside mozila folder.
+When I finally mounted the image properly I was able to get the 5 mb places.sqlite file.
+
+It was not accessible at first then I used the command 
+
+sudo chown -R "$USER":"$USER" ./
+
+It gave me the required permission to access the file and I obtained a line in the moz_places table
+
+https://www.home.cern/totally-legit-time-travel-guide|Page not found | CERN|nrec.emoh.www.|1|0|0|0|1694294507975329|NhBK9i2JG5D1|0|47357689826869||||4|0||0
+
+I converted the timestamp in seconds which gave me value 1694294507
+
+The answer then after using the given format was
+
+SICTF{https://www.home.cern/totally-legit-time-travel-guide_1694294507} // Probably the answer.

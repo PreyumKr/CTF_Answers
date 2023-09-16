@@ -1,0 +1,14 @@
+I ran a check in the var/log folder for firefox, like
+
+cat * | grep firefox
+
+and got a log like this.
+
+Sep  9 21:19:51 futureman authpriv.info : emmettbrown ran command apk add firefox as root from /home/emmettbrown
+
+Converting the timestamp in the epoch time converter and giving the year as 2023.
+I got the value 1694294391
+
+The answer then after using the given format was
+
+SICTF{1694294391} //probably
